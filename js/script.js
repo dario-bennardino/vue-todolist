@@ -5,8 +5,29 @@ createApp({
     data(){
         return {
             newTask: '',
-            todoDone: false,
-            todoList: []
+            
+            todoList: [
+                {
+                    task: "Fare la spesa", 
+                    todoDone: true,
+                },
+                {
+                    task: "Fare la spesa", 
+                    todoDone: false,
+                },
+                {
+                    task: "Fare la spesa", 
+                    todoDone: false,
+                },
+                {
+                    task: "Fare la spesa", 
+                    todoDone: false,
+                },
+                {
+                    task: "Fare la spesa", 
+                    todoDone: false,
+                }
+            ]
  
         }
     },
