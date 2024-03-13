@@ -19,7 +19,7 @@ createApp({
             }
 
             // Aggiungo nell'array all'array todoList un nuovo oggetto con la proprietà 'text' e 'done'
-            this.todoList.push({ text: this.newTask, done: false }); 
+            this.todoList.push({ text: this.newTask, todoDone: false }); 
             this.newTask = ''; // Resettare l'input     
         }
        
