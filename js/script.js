@@ -43,7 +43,11 @@ createApp({
             this.todoList.push({ text: this.newTask, todoDone: false }); 
             // Resettare l'input 
             this.newTask = '';     
-        }
+        },
+
+        removeTask(index) {
+            this.todoList.splice(index, 1);
+          }
        
         
     },
