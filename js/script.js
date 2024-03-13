@@ -40,7 +40,8 @@ createApp({
             }
 
             // Aggiungo nell'array all'array todoList un nuovo oggetto con la proprietà 'text' e 'done'
-            this.todoList.push({ task: this.newTask, todoDone: false }); 
+            //con unshift mi aggiunge una nuova task all'inizio a differenza di push che lo inserisce in coda
+            this.todoList.unshift({ task: this.newTask, todoDone: false }); 
 
             // Resettare l'input 
             this.newTask = '';     
